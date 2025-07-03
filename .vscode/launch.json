@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb) Depurar main.exe",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/main.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:/MinGW/bin/gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Ativar impressão de valores",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}

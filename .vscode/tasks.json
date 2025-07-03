@@ -1,0 +1,30 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "Compilar C: main.c → build",
+            "command": "D:\\MinGW\\bin\\gcc.exe",
+            "args": [
+                "-Wall",
+                "-Wextra",
+                "-g3",
+                "-O2",
+                "-std=c99",
+                "-pedantic",
+                "-o",
+                "${workspaceFolder}\\build\\main.exe",
+                "${workspaceFolder}\\main.c"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": ["$gcc"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Build personalizado para projeto A4"
+        }
+    ]
+}
