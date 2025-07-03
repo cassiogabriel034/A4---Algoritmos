@@ -1,0 +1,58 @@
+# Criado por https://www.toptal.com/developers/gitignore/api/c
+# Edite em https://www.toptal.com/developers/gitignore?templates=c
+
+### C ###
+# Pré-requisitos
+*.d
+
+# Arquivos de objeto
+*.o
+*.ko
+*.obj
+*.duende
+
+# Saída do vinculador
+*.semente
+*.mapa
+*.exp
+
+# Cabeçalhos pré-compilados
+*.gch
+*.pch
+
+# Bibliotecas
+*.lib
+*.um
+*.la
+*.lo
+
+# Objetos compartilhados (incluindo DLLs do Windows)
+*.dll
+*.então
+*.então.*
+*.dylib
+
+# Executáveis
+*.exe
+*.fora
+*.aplicativo
+*.i*86
+*.x86_64
+*.hex
+
+# Arquivos de depuração
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Resultados da compilação do módulo do kernel
+*.mod*
+*.cmd
+.tmp_versões/
+módulos.ordem
+Módulo.symvers
+Mkfile.old
+dkms.conf
+
+# Fim de https://www.toptal.com/developers/gitignore/api/c
